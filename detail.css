@@ -1,0 +1,12 @@
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    color: brown;
+}
+li {
+    padding-top: 50px;
+    font-family: Arial;
+    list-style-type: none;
+    padding-right: 200px;
+    color: brown;
+}

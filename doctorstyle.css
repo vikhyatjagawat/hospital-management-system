@@ -1,0 +1,21 @@
+body {
+    background-image: url("cover.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header {
+    text-align: center;
+    font-family: Helvetica;
+}
+.feature{
+    padding-top: 75px;
+    text-align: center;
+    font-family: Arial;
+}
+.submit {
+    padding-top: 15px;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+}

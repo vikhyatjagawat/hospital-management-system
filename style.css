@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 222, 179, 0.719)
+}
+header {
+    background-color: violet;
+    background-image: url("cover.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    height: 242px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-right: 80px;
+    font-size: 40px;
+}
+h2 {
+    font-family: Arial;
+    text-align: right;
+    padding-right: 80px;
+    font-size: 22px;
+}
+section {
+    padding-top: 100px;
+}
+section a {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+.features {
+    color: gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.features figure {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features figure img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+}
+.features figure figcaption {
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+footer {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
